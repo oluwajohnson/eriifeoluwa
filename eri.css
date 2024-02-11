@@ -129,9 +129,7 @@ h1{
 .adventure {
   text-align: center;
 }
-section .adventureText p{
-  /* visibility: hidden; */
-}
+
 .adventure .adventureText h2 ul li{
   text-align: center;
 }
