@@ -106,8 +106,9 @@ article .img{
     /* height: 40px; */
   }
 
-h2{
+h1{
     color: var(--primary-color);
+    font-size: xx-large;
     
 }
 .layer3{
@@ -128,6 +129,9 @@ h2{
 .adventure {
   text-align: center;
 }
+section .adventureText p{
+  visibility: hidden;
+}
 .adventure .adventureText h2 ul li{
   text-align: center;
 }
@@ -145,12 +149,15 @@ h2{
   text-align: center;
 }
  section .adventureImg{
-  display: flex;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
   gap: 3px;
 
 }
  section .adventureImg img{
-  width: 310px;
+  width: 100%;
 
 }
  footer{
